@@ -1,0 +1,25 @@
+{
+  "name": "@dvashim/ui-themes",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Aleksei Reznichenko",
+    "email": "aleksei@dvashim.dev"
+  },
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "./color.themes.stylex": "./src/color/index.ts",
+    "./font.themes.stylex": "./src/font/index.ts",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "@dvashim/ui-core": "workspace:^",
+    "@stylexjs/stylex": "^0.18.2"
+  }
+}
