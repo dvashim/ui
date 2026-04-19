@@ -1,0 +1,28 @@
+{
+  "name": "@dvashim/ui-core",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Aleksei Reznichenko",
+    "email": "aleksei@dvashim.dev"
+  },
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./color.stylex": "./src/color/color.stylex.ts",
+    "./color.intent.stylex": "./src/color/color.intent.stylex.ts",
+    "./font.size.stylex": "./src/font/font.size.stylex.ts",
+    "./font.lineHeight.stylex": "./src/font/font.lineHeight.stylex.ts",
+    "./font.weight.stylex": "./src/font/font.weight.stylex.ts",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "@stylexjs/stylex": "^0.18.2"
+  }
+}
