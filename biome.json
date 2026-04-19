@@ -1,0 +1,7 @@
+{
+  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+  "extends": ["@dvashim/biome-config/react-recommended"],
+  "files": {
+    "includes": ["!**/.claude"]
+  }
+}
