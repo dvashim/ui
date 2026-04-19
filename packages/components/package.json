@@ -1,0 +1,30 @@
+{
+  "name": "@dvashim/ui-components",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Aleksei Reznichenko",
+    "email": "aleksei@dvashim.dev"
+  },
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "@dvashim/ui-core": "workspace:^",
+    "@stylexjs/stylex": "^0.18.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@dvashim/ui-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Aleksei Reznichenko",
+    "email": "aleksei@dvashim.dev"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "check": "biome check ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.12",
+    "@changesets/changelog-github": "^0.6.0",
+    "@changesets/cli": "^2.31.0",
+    "@dvashim/biome-config": "^1.6.0",
+    "@dvashim/typescript-config": "^3.1.3",
+    "@stylexjs/stylex": "^0.18.2",
+    "@stylexjs/unplugin": "^0.18.2",
+    "typescript": "^6.0.3"
+  }
+}
