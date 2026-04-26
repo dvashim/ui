@@ -21,8 +21,8 @@ importers:
         specifier: ^1.6.0
         version: 1.6.0
       '@dvashim/typescript-config':
-        specifier: ^4.0.0
-        version: 4.0.0(typescript@6.0.3)
+        specifier: ^4.0.1
+        version: 4.0.1(typescript@6.0.3)
       '@stylexjs/stylex':
         specifier: ^0.18.2
         version: 0.18.2
@@ -333,8 +333,8 @@ packages:
     resolution: {integrity: sha512-ICon5aRjd5MGL9w1YCpz1WArTAUtGn3uncqmLos7WIFqyGydTTOISHzIIKv5q1D/JziZuuW5tyzwxBcRTkW1KA==}
     engines: {node: '>=18'}
 
-  '@dvashim/typescript-config@4.0.0':
-    resolution: {integrity: sha512-kyYHFAmekHxTZcf8J8rg9P3mLDuwEDq4rbbYs5+wfqiTN7B2pNR8U4jCV4ngVlFbapgNldYCQ6jmAF4rRCZxHw==}
+  '@dvashim/typescript-config@4.0.1':
+    resolution: {integrity: sha512-N8rZDztX4Pt+rKmbuWXCtqDo6iElix1wrxc26kobF/0iy1Q8W1hA8x8tcHOoNQhPKBvGtoRwpkAMTw1wWREGug==}
     peerDependencies:
       typescript: '>=6.0.0'
 
@@ -2020,7 +2020,7 @@ snapshots:
 
   '@dvashim/biome-config@1.6.0': {}
 
-  '@dvashim/typescript-config@4.0.0(typescript@6.0.3)':
+  '@dvashim/typescript-config@4.0.1(typescript@6.0.3)':
     dependencies:
       typescript: 6.0.3
 
