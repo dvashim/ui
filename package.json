@@ -18,7 +18,7 @@
     "@biomejs/biome": "^2.4.12",
     "@changesets/changelog-github": "^0.6.0",
     "@changesets/cli": "^2.31.0",
-    "@dvashim/biome-config": "^1.6.0",
+    "@dvashim/biome-config": "^1.7.0",
     "@dvashim/typescript-config": "^4.0.0",
     "@stylexjs/stylex": "^0.18.2",
     "@stylexjs/unplugin": "^0.18.2",
