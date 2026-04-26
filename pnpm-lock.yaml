@@ -18,8 +18,8 @@ importers:
         specifier: ^2.31.0
         version: 2.31.0(@types/node@25.6.0)
       '@dvashim/biome-config':
-        specifier: ^1.6.0
-        version: 1.6.0
+        specifier: ^1.7.0
+        version: 1.7.0
       '@dvashim/typescript-config':
         specifier: ^4.0.0
         version: 4.0.0(typescript@6.0.3)
@@ -329,8 +329,8 @@ packages:
   '@dual-bundle/import-meta-resolve@4.2.1':
     resolution: {integrity: sha512-id+7YRUgoUX6CgV0DtuhirQWodeeA7Lf4i2x71JS/vtA5pRb/hIGWlw+G6MeXvsM+MXrz0VAydTGElX1rAfgPg==}
 
-  '@dvashim/biome-config@1.6.0':
-    resolution: {integrity: sha512-ICon5aRjd5MGL9w1YCpz1WArTAUtGn3uncqmLos7WIFqyGydTTOISHzIIKv5q1D/JziZuuW5tyzwxBcRTkW1KA==}
+  '@dvashim/biome-config@1.7.0':
+    resolution: {integrity: sha512-mat1rFz9kdgvF93c6xtr21TvkzyfVtF1Q2TcZXh/j7I17DEgRDnrE5/133Q2h4NK73dU/yMp3DpgPYMRcprlAw==}
     engines: {node: '>=18'}
 
   '@dvashim/typescript-config@4.0.0':
@@ -2018,7 +2018,7 @@ snapshots:
 
   '@dual-bundle/import-meta-resolve@4.2.1': {}
 
-  '@dvashim/biome-config@1.6.0': {}
+  '@dvashim/biome-config@1.7.0': {}
 
   '@dvashim/typescript-config@4.0.0(typescript@6.0.3)':
     dependencies:
