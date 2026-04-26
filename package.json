@@ -20,7 +20,7 @@
     "@changesets/cli": "^2.31.0",
     "@dvashim/biome-config": "^1.6.0",
     "@dvashim/typescript-config": "^4.0.0",
-    "@stylexjs/stylex": "^0.18.2",
+    "@stylexjs/stylex": "^0.18.3",
     "@stylexjs/unplugin": "^0.18.2",
     "typescript": "^6.0.3"
   }
